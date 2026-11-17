@@ -39,5 +39,4 @@ while True:
             print("삭제되었습니다.")
         else:
             print("해당 이벤트가 존재하지 않습니다.")
-    elif cmd == "4":
-        break
+    
