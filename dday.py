@@ -5,7 +5,7 @@ FILE = "dday.json"
 dday_data = json.load(open(FILE, "r", encoding="utf-8")) if os.path.exists(FILE) else {}
 
 while True:
-    print("\n--- [1] D-Day 목록 [2] D-Day 추가 [3] 삭제 [4] 종료 ---")
+    print("\n---  ---")
     cmd = input("선택: ")
     
     if cmd == "1":
