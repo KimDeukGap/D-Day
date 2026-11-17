@@ -32,12 +32,6 @@ while True:
             print("저장되었습니다.")
         except ValueError:
             print("날짜 형식이 잘못되었습니다. (예: 2026-12-31)")
-    elif cmd == "3":
-        title = input("삭제할 이벤트 이름: ")
-        if dday_data.pop(title, None):
-            json.dump(dday_data, open(FILE, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
-            print("삭제되었습니다.")
-        else:
-            print("해당 이벤트가 존재하지 않습니다.")
+    
     elif cmd == "4":
         break
